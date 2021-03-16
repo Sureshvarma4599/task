@@ -75,7 +75,7 @@ export default class home extends Component {
             </div>
                <h1>Results found:{this.state.datas.length}</h1>
                <button onClick={this.onSortHandler}>sort</button>
-            <div className="content" style={{height:"50%"}}>
+            <div className="content" >
                {this.state.datas.map(data=>(
                    <span key={data["Course Id"]}>
                        <div className="course">

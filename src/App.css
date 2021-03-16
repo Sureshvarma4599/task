@@ -15,28 +15,28 @@ button{
   width:100px;
   height: 30px;
 }
-.content{
-  margin:auto;
-  
-  
-}
+
 p{
   text-align:left;
-  margin-left: 2%;
+  margin-left: 1%;
   font-size: 1vw;
 }
 h1{
-font-size: 1vw;
+font-size:2vh;
+}
+.content{
+  justify-content: space-around;
 }
 .course{
-  display: flex;
-  flex-direction:column;
-  position: relative;
-  float:right;
-  width: 20%;
- 
+  
+ position:relative;
+  float:left;
+  overflow: hidden;
+  height:100%;
+  width:40%;
+  
   flex-wrap: nowrap;
-  margin: 2%;
+  margin: 4%;
   border: 2px solid #D7D7D7;
   
 }
